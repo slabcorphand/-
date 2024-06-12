@@ -28,7 +28,7 @@ public interface EmployeeMapper {
 
     /**
      * 分页查询
-     * @param employeePageQueryDTO
+     * @param name
      * @return
      */
     Page<Employee> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
